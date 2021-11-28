@@ -18,6 +18,7 @@ public class pattern_16 {
                 }
                     if(r==n){
                         nst--;
+                        count--;
                     }
                 for(int cst=1;cst<=nst;cst++){
                     System.out.print(count+"\t");
