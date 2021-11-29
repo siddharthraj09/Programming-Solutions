@@ -1,4 +1,4 @@
-// Sample Output
+// Sample Output                         nCr
 // 1	
 // 1	1	
 // 1	2	1	
