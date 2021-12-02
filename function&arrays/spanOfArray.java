@@ -1,3 +1,5 @@
+// SPAN OF ARRAY
+
 import java.util.Scanner;
 
 public class spanOfArray {
@@ -17,6 +19,20 @@ public class spanOfArray {
         
             System.out.print(arr[i]+"\t");
         }
+        System.out.println();
+
+    }
+    public static int arraySpan(int [] arr){
+
+        int maxEl=Integer.MIN_VALUE;
+        int minEl=Integer.MAX_VALUE;
+
+        for (int i = 0; i < arr.length; i++) {
+
+            maxEl=Math.max(maxEl,arr[i]);
+            minEl=Math.min(minEl, arr[i]);
+        }
+        return(maxEl-minEl);
 
     }
     
@@ -25,7 +41,8 @@ public class spanOfArray {
         int [] arr=new int[n];
         takeInput(arr);
         printArray(arr);
-
+        int res=arraySpan(arr);
+        System.out.println(res);
     }
     
 }
