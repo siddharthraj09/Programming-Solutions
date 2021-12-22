@@ -11,7 +11,7 @@
 // 2. Figure out the pattern and complete the recursive function pzz to achieve the above for any positive number n.
 
 // Note -> The online judge can't force you to write the function recursively but that is what the spirit of question is.Write recursive and n
-
+//Dry run helps to understand recusrion
 import java.util.*;
 public class printZigzag {
   
