@@ -19,14 +19,29 @@ public class linearPower {
         return (n==0)?1:x*power(x, n-1);
         
     }
+    //It is more efficent than linear method 
+    public static int logPower(int x,int n) {
+        if (n==0)
+        return 1;
+        int recans=logPower(x, n/2);
+        int ans=recans*recans;
+        if(n%2!=0){
+             ans=ans*x;
+        }
+        return ans;
+    }
 
 
 
     public static void main(String[] args) {
         int x=scn.nextInt();
         int n=scn.nextInt();
-        int ans=power(x, n);
-        System.out.println(ans);
+         int ans=power(x, n);
+       int ans1 =logPower(x, n);
+       System.out.println("by linear:");
+       System.out.println(ans);
+       System.out.println("by log");
+        System.out.println(ans1);
     }
     
 }
