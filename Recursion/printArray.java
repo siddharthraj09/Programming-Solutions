@@ -14,7 +14,7 @@ public class printArray {
          if(l<0)
          return;
          print(arr, l-1);
-         System.out.println(arr[l]);
+         System.out.println(arr[l]);   
      }
 
         public static void main(String[] args) {
