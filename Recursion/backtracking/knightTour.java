@@ -13,7 +13,7 @@
 //                question is. Write recursive and not iterative logic. The purpose of the question is to aid 
 //                learning recursion and not test you.
 
-package backtracking.floodfill;
+package backtracking;
 import java.util.*;
 public class knightTour {
         
