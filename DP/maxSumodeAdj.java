@@ -1,3 +1,4 @@
+import java.util.*;
 public class maxSumodeAdj {
     public static long min (long...arr){
         long minn = (long)1e15;
@@ -41,4 +42,4 @@ public class maxSumodeAdj {
         System.out.println(ans);
     }
 }
-}
+
