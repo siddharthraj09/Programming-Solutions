@@ -1,3 +1,4 @@
+//DFSFDS
 public class freindsPairing {
     public static int friendsPairing(int n, int [] dp)
     {
@@ -7,7 +8,7 @@ public class freindsPairing {
 
         if(dp[n] != 0)
             return dp[n];
-
+        int 
         int single = friendsPairing(n-1, dp);
         int pair = friendsPairing(n-2, dp);
 
