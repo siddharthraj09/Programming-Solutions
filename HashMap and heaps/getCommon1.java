@@ -1,3 +1,5 @@
+import java.util.*;
+import java.io.*;
 public class getCommon1 {
     
 public static void main(String[] args) throws Exception {
